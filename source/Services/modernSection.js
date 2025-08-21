@@ -15,6 +15,26 @@ export default function ModernSection(props)
                     <button>Visit Our Store</button>
                 </div>
             </div>
+            <ul>
+                <li>
+                    <div></div>
+                    <h4>Worldwide shipping</h4>
+                    <p>Consectetur adipiscing elit, sed do eiusm od tempor incidunt ut labore.</p>
+                    <button></button>
+                </li>
+                <li>
+                    <div></div>
+                    <h4>Worldwide shipping</h4>
+                    <p>Consectetur adipiscing elit, sed do eiusm od tempor incidunt ut labore.</p>
+                    <button></button>
+                </li>
+                <li>
+                    <div></div>
+                    <h4>Worldwide shipping</h4>
+                    <p>Consectetur adipiscing elit, sed do eiusm od tempor incidunt ut labore.</p>
+                    <button></button>
+                </li>
+            </ul>
         </div>
     );
 }

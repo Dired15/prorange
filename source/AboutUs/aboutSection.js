@@ -6,6 +6,7 @@ export default function AboutSection(props)
         <div>
             <h2>About Us</h2>
             <div></div>
+
             <div>
                 <div>
                     <div></div>
@@ -21,6 +22,7 @@ export default function AboutSection(props)
                     <button>Our Services</button>
                 </div>
             </div>
+
             <ul>
                 <li>
                     <h4>Offices</h4>
@@ -39,6 +41,10 @@ export default function AboutSection(props)
                     <p>256</p>
                 </li>
             </ul>
+
+            <div></div>
+
+            
         </div>
     );
 }
