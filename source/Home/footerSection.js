@@ -9,7 +9,7 @@ export default function FooterSection(props)
                 <div className=" flex flex-row items-center md:mb-0 mb-8">
                     <div className="">
                         {/* <div className=" aspect-square w-[55px] bg-[url(/logo.png)] bg-cover bg-norepeat"></div> */}
-                        <Image src="/logo.png" alt="" width={55} height={55} className="bg-white mr-2"/>
+                        <img src="/logo.png" alt="" width={55} height={55} className="bg-white mr-2"/>
                     </div>
                     <h2 className="text-xl font-bold">PRORANGE</h2>
                 </div>
@@ -20,7 +20,7 @@ export default function FooterSection(props)
                 
             </div>
             <div className="flex md:flex-row flex-col justify-between">
-                <form className="md:mb-0 mb-10">
+                {/* <form className="md:mb-0 mb-10">
                     <label>Newsletter Signup</label>
                     <div>
                         <div></div>
@@ -28,7 +28,8 @@ export default function FooterSection(props)
                         <div></div>
                     </div>
                     <div></div>
-                </form>
+                </form> */}
+                <div></div>
                 <div className=" flex md:flex-row flex-col  justify-between  lg:w-[60vw] md:w-[60vw]">
                     <ul className=" flex flex-col md:mb-0 mb-10 ">
                         <li className="text-xl font-medium mb-6">Socials</li>

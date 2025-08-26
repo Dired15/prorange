@@ -7,7 +7,7 @@ export default function NavSection(props)
             <div className=" flex flex-row items-center">
                 <div className="bg-white">
                     {/* <div className=" aspect-square w-[55px] bg-[url(/logo.png)] bg-cover bg-norepeat"></div> */}
-                    <Image src="/logo.png" alt="" width={55} height={55} className="bg-white mr-2"/>
+                    <img src="/logo.png" alt="" width={55} height={55} className="bg-white mr-2"/>
                 </div>
                 <h2 className="text-xl font-bold">PRORANGE</h2>
             </div>

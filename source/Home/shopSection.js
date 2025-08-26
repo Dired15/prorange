@@ -27,7 +27,7 @@ export default function ShopSection(props)
                     </li>
 
                     <li className="flex  flex-col ">
-                        <div className="aspect-7/6 mb-4 lg:w-[20vw] md:w-[45vw] bg-[url(/shopBg4.jpg)] bg-cover bg-center "></div>
+                        <div className="aspect-7/6 mb-4 lg:w-[20vw] md:w-[45vw] bg-[url(/heroSectionBg.jpg)] bg-cover bg-center "></div>
                         <h4 className="font-medium text-lg mb-2">Coastal Blue</h4>
                         <p className="font-medium text-lg">$50.00</p>
                     </li>
