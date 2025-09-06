@@ -6,8 +6,8 @@ export default function BlogSection(props)
             <div className="flex flex-col items-center py-[2%]">
                 <h3 className="font-medium md:mb-4 mb-2 md:text-base text-sm">OUR BLOG</h3>
                 <h2 className="md:text-5xl text-3xl font-bold mb-12 text-center">Latest news</h2>
-                <div>
-                    <ul className="w-full flex flex-row  justify-between overflow-x-scroll  max-w-[90vw]">
+                <div className="w-full">
+                    <ul className="w-full flex flex-row  justify-between overflow-x-auto  max-h-[90vw]">
 
                         <li className="flex flex-col md:mr-0 mr-10">
                             <div className="aspect-6/4 md:w-[25vw] w-[90vw] bg-[url(/blogBg.jpg)] bg-cover mb-6"></div>
